@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  height: 200px;
+  width: auto;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+nav {
+  border-bottom: 5px solid black;
+  list-style-type: none;
+  background-color: aquamarine;
+  height: 50px;
+  text-align: right;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+  padding-top: 15px;
+}
+
+footer {
+  border: 5px solid pink;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+input {
+  display: block;
+}
