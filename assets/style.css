@@ -3,35 +3,68 @@
   margin: 0;
 }
 
+h1,
+h2 {
+  text-align: center;
+}
 img {
-  height: 200px;
-  width: auto;
+  display: block;
+  height: auto;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
 }
 
 body {
-  background-color: blanchedalmond;
+  background-color: rgb(255, 244, 227);
+}
+
+p {
+  text-align: center;
+  margin: 15px;
 }
 
 nav {
   border-bottom: 5px solid black;
   list-style-type: none;
   background-color: aquamarine;
-  height: 50px;
+  height: 30px;
   text-align: right;
-}
-
-li {
-  display: inline;
-  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
   padding-top: 15px;
 }
 
+.li {
+  display: inline;
+  margin: 10px;
+  padding-top: 10px;
+}
+
 footer {
-  border: 5px solid pink;
-  height: 100px;
-  background-color: cornflowerblue;
+  border-top: 5px solid black;
+  height: 20px;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 8px;
 }
 
 input {
   display: block;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 10px;
+  border: 5px solid gray;
+  width: 30%;
+  margin-bottom: 15px;
+}
+
+.form-center {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }

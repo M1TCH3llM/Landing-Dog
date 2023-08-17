@@ -10,14 +10,14 @@
   <body>
     <nav>
       <ul>
-        <li>GitHub</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <li class="li">GitHub</li>
+        <li class="li">Portfolio</li>
+        <li class="li">Contact</li>
       </ul>
     </nav>
-    <head>
+    <header>
       <h1>My New Website</h1>
-    </head>
+    </header>
     <figure>
       <img src="./assets/Dog1.jpg" alt="Photo of Dog" />
     </figure>
@@ -26,21 +26,18 @@
     </section>
     <section>
       <h2>Contact Me</h2>
-      <form>
-        <ul>
-          <li>
-            <label for="Name">Name:</label>
-            <input type="text" />
-          </li>
-
-          <li>
-            <label for="Email">Email:</label>
-            <input type="text" />
-          </li>
-        </ul>
-        <button>SUBMIT</button>
+      <form class="form">
+        <div class="form-center">
+          <label>Name: </label>
+          <input type="name" name="name" placeholder="Name" />
+        </div>
+        <div class="form-center">
+          <label>Email: </label>
+          <input type="email" name="email" placeholder="Email" />
+        </div>
+        <button>Submit</button>
       </form>
     </section>
-    <footer>Footer</footer>
+    <footer>@ 2023 My New Web Production</footer>
   </body>
 </html>
