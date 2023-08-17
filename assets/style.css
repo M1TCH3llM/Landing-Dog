@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1,
 h2 {
   text-align: center;
@@ -12,32 +17,14 @@ h1 {
   padding-top: 15px;
 }
 
-h2 {
-  padding-bottom: 15px;
-}
-img {
-  display: block;
-  height: auto;
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
+li {
+  display: inline;
+  margin: 10px;
+  transition-duration: 0.4s;
 }
 
-body {
-  background-color: whitesmoke;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  text-align: center;
-  margin: 15px;
-  padding-bottom: 5px;
-  font-size: larger;
-}
-.p {
-  margin-top: 8px;
-  color: whitesmoke;
+li:hover {
+  color: rgb(12, 66, 63);
 }
 
 nav {
@@ -49,22 +36,32 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 15px;
   color: whitesmoke;
+  padding-right: 15px;
 }
 
-.li {
-  display: inline;
-  margin: 10px;
-  padding-top: 10px;
-}
-
-footer {
-  height: 20px;
-  background-color: lightseagreen;
-  padding: 10px;
-}
-
-input {
+img {
   display: block;
+  height: auto;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+p {
+  text-align: center;
+  margin: 15px;
+  padding-bottom: 5px;
+  font-size: larger;
+}
+
+.p {
+  margin-top: 8px;
+  color: whitesmoke;
 }
 
 .form {
@@ -82,9 +79,31 @@ input {
   justify-content: center;
   margin: 5px;
 }
+
 .form-border {
   background-color: lightgray;
   padding-bottom: 20px;
   padding-top: 15px;
   border-top: 5px solid gray;
+}
+
+button {
+  background-color: lightseagreen;
+  font-size: 15px;
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: 2px solid black;
+  color: whitesmoke;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: lightseagreen;
+}
+
+footer {
+  height: 20px;
+  background-color: lightseagreen;
+  padding: 10px;
 }
