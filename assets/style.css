@@ -7,6 +7,14 @@ h1,
 h2 {
   text-align: center;
 }
+
+h1 {
+  padding-top: 15px;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
 img {
   display: block;
   height: auto;
@@ -17,22 +25,30 @@ img {
 }
 
 body {
-  background-color: rgb(255, 244, 227);
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
   text-align: center;
   margin: 15px;
+  padding-bottom: 5px;
+  font-size: larger;
+}
+.p {
+  margin-top: 8px;
+  color: whitesmoke;
 }
 
 nav {
-  border-bottom: 5px solid black;
+  border-bottom: 10px solid gray;
   list-style-type: none;
-  background-color: aquamarine;
+  background-color: lightseagreen;
   height: 30px;
   text-align: right;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 15px;
+  color: whitesmoke;
 }
 
 .li {
@@ -42,11 +58,9 @@ nav {
 }
 
 footer {
-  border-top: 5px solid black;
   height: 20px;
-  background-color: aquamarine;
-  text-align: center;
-  padding: 8px;
+  background-color: lightseagreen;
+  padding: 10px;
 }
 
 input {
@@ -59,12 +73,18 @@ input {
   border-radius: 20px;
   padding: 10px;
   border: 5px solid gray;
-  width: 30%;
-  margin-bottom: 15px;
+  width: 50%;
+  margin-bottom: 0px;
 }
 
 .form-center {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 5px;
+}
+.form-border {
+  background-color: lightgray;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  border-top: 5px solid gray;
 }
